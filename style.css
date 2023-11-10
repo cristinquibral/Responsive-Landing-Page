@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: #333;
+    background-image: url('bg.jpg');
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+ 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.home {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.home h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: burlywood;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #005d91;
+}
+
+.priceHeading {
+    color: black;
+    font-size: 3em;
+    font-weight: 600;
+    margin-left: 1em;
+}
+
+.pricing {
+    padding: 100px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.pricingImage {
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    
+}
+@media (max-width: 768px) {
+    .feature , .products{
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .feature , .products {
+        flex-basis: 100%;
+    }
+}
+
+footer {
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+    padding: 10px;
+
+}

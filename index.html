@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="products.jpg" alt="LOGO" style="height: 70px; width: 70px; border-radius: 50%;">
+            <ul class="nav-links">
+                <button><li><a href="#home">Home</a></li></button>
+                <button><li><a href="#products">Products</a></li></button>
+                <button><li><a href="#contact">Contact</a></li></button>
+            </ul>
+        </nav>
+    </header>
+    <div class="home" id="home" style="background-color: blanchedalmond;">
+        <h1>Welcome To QB's Mini Donut Shop</h1>
+        <p>Sweets Donuts, Just For You!</p>
+        <a href="#contact" class="cta-button">Learn More</a> 
+    </div>
+    
+    <section class="pricing" id="products">
+        <span class="priceHeading"> Here's a Dozen Reasons to be Happy!</span>
+        <img class="pricingImage" src="prod.webp" alt="Products Menu"></img> 
+
+        
+    </section>
+    <div class="footer" style="background-color: blanchedalmond; margin-top: 0; text-align: center;">
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <h3> You may send a message to us</h3>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+  </div>
+  
+  <script src="func.js"></script>
+</body>
+</html>
